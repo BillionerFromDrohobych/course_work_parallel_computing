@@ -1,12 +1,17 @@
-﻿using System;
+﻿using System.Collections.Concurrent;
+using System.Collections.Generic;
 
 namespace AppServer
 {
-    class AppClient
+    class AppServer
     {
+        public static ConcurrentDictionary<string, List<string>> InvertedIndex;
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            InvertedIndex = new ConcurrentDictionary<string, List<string>>();
+            var invertedIndexClass = new InvertedIndex();
+            invertedIndexClass.BuildIndex();
         }
     }
 }

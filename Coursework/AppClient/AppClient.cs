@@ -2,7 +2,7 @@
 
 namespace AppClient
 {
-    class AppServer
+    class AppClient
     {
         static void Main(string[] args)
         {
