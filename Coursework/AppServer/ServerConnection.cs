@@ -16,7 +16,7 @@ namespace AppServer
 				var server = new TcpListener(LocalAddr, Port);
 
 				server.Start();
-				Console.WriteLine(" >> " + "Server Started");
+				Console.WriteLine("Server Started");
 				while (true)
 				{
 					var clientSocket = server.AcceptSocket();

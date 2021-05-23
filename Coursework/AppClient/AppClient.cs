@@ -16,7 +16,6 @@ namespace AppClient
             try
             {
                 var ipPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), Port);
-
                 var socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 socket.Connect(ipPoint);
 				
@@ -41,6 +40,7 @@ namespace AppClient
                             Console.WriteLine(decodedUserMessage);
                             break;
                         case 2:
+                            socket.Send(Encoding.ASCII.GetBytes("StopClientConnection"));
                             _isWorking = false;
                             break;
                     }
@@ -55,7 +55,6 @@ namespace AppClient
             {
                 Console.WriteLine(e.ToString());
             }
-            Console.ReadKey();
 			
         }
     }

@@ -33,17 +33,17 @@ namespace AppServer
                             0, byteRecv));
                     }
                     while (_clientSocket.Available>0);
-					
-
-                    _serverResponse = FormAnswer( decodedUserMessage.ToString());
-
-                    var message = Encoding.ASCII.GetBytes(_serverResponse);
-                    if (message.Equals("StopClientConnection"))
+                    if (decodedUserMessage.Equals("StopClientConnection"))
                     {
                         _clientSocket.Shutdown(SocketShutdown.Both);
                         _clientSocket.Close();
                         break;
                     }
+
+                    _serverResponse = FormAnswer( decodedUserMessage.ToString());
+
+                    var message = Encoding.ASCII.GetBytes(_serverResponse);
+                   
                     _clientSocket.Send(message);
                 }
                 catch (Exception e)
