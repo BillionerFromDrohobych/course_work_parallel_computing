@@ -4,6 +4,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Text;
 
 namespace AppServer
 {
@@ -12,7 +13,7 @@ namespace AppServer
 		private object mutex = new object();
 		private string[] _filePaths;
 		
-		private const int ThreadCount = 1;
+		private const int ThreadCount = 4;
 		private const int FileCount = 2000;
 		private readonly string DirectoryPath=@"C:\Users\1\Desktop\kursova\Coursework\Data";
 		public void BuildIndex()
@@ -44,17 +45,23 @@ namespace AppServer
 			for (var i = FileCount*(startIndexMultiplier)/ThreadCount; i < FileCount*(startIndexMultiplier+1)/ThreadCount; i++)
 			{
 				var text = UploadFile(_filePaths[i]);
-				DeleteAllSpecialCharacters();
-				var lexems = SplitString(text);
+				var clearText = DeleteSpecialCharacters(text);
+				var lexems = SplitString(clearText);
 				for(var j=0;j<lexems.Length;j++){
 					AddElement(lexems[j],_filePaths[i]);
 				}
 			}
 		}
 		
-		private void DeleteAllSpecialCharacters(){
-			var reg = new Regex(@"[^0-9a-zA-Z]+");
-			reg.Replace(@"[^0-9a-zA-Z]+", "");
+		private string DeleteSpecialCharacters(String text)
+		{
+				var sb = new StringBuilder();
+				foreach (char c in text) {
+					if ( c != '.' && c != ',') {
+						sb.Append(c);
+					}
+				}
+				return sb.ToString();
 		}
 		private string[] SplitString(string text){
 			return text.Split(' ');
