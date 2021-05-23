@@ -1,0 +1,16 @@
+C:\Users\1\Desktop\kursova\Coursework\AppClient\bin\Debug\net5.0\AppClient.exe
+C:\Users\1\Desktop\kursova\Coursework\AppClient\bin\Debug\net5.0\AppClient.deps.json
+C:\Users\1\Desktop\kursova\Coursework\AppClient\bin\Debug\net5.0\AppClient.runtimeconfig.json
+C:\Users\1\Desktop\kursova\Coursework\AppClient\bin\Debug\net5.0\AppClient.runtimeconfig.dev.json
+C:\Users\1\Desktop\kursova\Coursework\AppClient\bin\Debug\net5.0\AppClient.dll
+C:\Users\1\Desktop\kursova\Coursework\AppClient\bin\Debug\net5.0\ref\AppClient.dll
+C:\Users\1\Desktop\kursova\Coursework\AppClient\bin\Debug\net5.0\AppClient.pdb
+C:\Users\1\Desktop\kursova\Coursework\AppClient\obj\Debug\net5.0\AppClient.csprojAssemblyReference.cache
+C:\Users\1\Desktop\kursova\Coursework\AppClient\obj\Debug\net5.0\AppClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\kursova\Coursework\AppClient\obj\Debug\net5.0\AppClient.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\kursova\Coursework\AppClient\obj\Debug\net5.0\AppClient.AssemblyInfo.cs
+C:\Users\1\Desktop\kursova\Coursework\AppClient\obj\Debug\net5.0\AppClient.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\kursova\Coursework\AppClient\obj\Debug\net5.0\AppClient.dll
+C:\Users\1\Desktop\kursova\Coursework\AppClient\obj\Debug\net5.0\ref\AppClient.dll
+C:\Users\1\Desktop\kursova\Coursework\AppClient\obj\Debug\net5.0\AppClient.pdb
+C:\Users\1\Desktop\kursova\Coursework\AppClient\obj\Debug\net5.0\AppClient.genruntimeconfig.cache

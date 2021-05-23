@@ -1,0 +1,16 @@
+C:\Users\1\Desktop\kursova\Coursework\AppServer\bin\Debug\net5.0\AppServer.exe
+C:\Users\1\Desktop\kursova\Coursework\AppServer\bin\Debug\net5.0\AppServer.deps.json
+C:\Users\1\Desktop\kursova\Coursework\AppServer\bin\Debug\net5.0\AppServer.runtimeconfig.json
+C:\Users\1\Desktop\kursova\Coursework\AppServer\bin\Debug\net5.0\AppServer.runtimeconfig.dev.json
+C:\Users\1\Desktop\kursova\Coursework\AppServer\bin\Debug\net5.0\AppServer.dll
+C:\Users\1\Desktop\kursova\Coursework\AppServer\bin\Debug\net5.0\ref\AppServer.dll
+C:\Users\1\Desktop\kursova\Coursework\AppServer\bin\Debug\net5.0\AppServer.pdb
+C:\Users\1\Desktop\kursova\Coursework\AppServer\obj\Debug\net5.0\AppServer.csprojAssemblyReference.cache
+C:\Users\1\Desktop\kursova\Coursework\AppServer\obj\Debug\net5.0\AppServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\kursova\Coursework\AppServer\obj\Debug\net5.0\AppServer.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\kursova\Coursework\AppServer\obj\Debug\net5.0\AppServer.AssemblyInfo.cs
+C:\Users\1\Desktop\kursova\Coursework\AppServer\obj\Debug\net5.0\AppServer.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\kursova\Coursework\AppServer\obj\Debug\net5.0\AppServer.dll
+C:\Users\1\Desktop\kursova\Coursework\AppServer\obj\Debug\net5.0\ref\AppServer.dll
+C:\Users\1\Desktop\kursova\Coursework\AppServer\obj\Debug\net5.0\AppServer.pdb
+C:\Users\1\Desktop\kursova\Coursework\AppServer\obj\Debug\net5.0\AppServer.genruntimeconfig.cache
