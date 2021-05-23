@@ -12,7 +12,7 @@ namespace AppServer
 		private object mutex = new object();
 		private string[] _filePaths;
 		
-		private const int ThreadCount = 5;
+		private const int ThreadCount = 1;
 		private const int FileCount = 2000;
 		private readonly string DirectoryPath=@"C:\Users\1\Desktop\kursova\Coursework\Data";
 		public void BuildIndex()
@@ -61,7 +61,7 @@ namespace AppServer
 		}
 		private void AddElement(string lexem,string documentId){
 			AppServer.InvertedIndex.AddOrUpdate(lexem,
-			                          _ => new List<string>(),
+			                          _ => new List<string>{documentId},
 			                          (_, existing) =>
 			                          {
 			                          	lock (mutex)
