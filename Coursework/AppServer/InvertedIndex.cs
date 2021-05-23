@@ -14,7 +14,7 @@ namespace AppServer
 		
 		private const int ThreadCount = 5;
 		private const int FileCount = 2000;
-		private readonly string DirectoryPath=@"C:\Users\1\Documents\SharpDevelop Projects\kursova\kursova\data";
+		private readonly string DirectoryPath=@"C:\Users\1\Desktop\kursova\Coursework\Data";
 		public void BuildIndex()
 		{
 			var threads = new Thread[ThreadCount];
