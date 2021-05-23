@@ -1,4 +1,5 @@
-﻿using System.Collections.Concurrent;
+﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 
 namespace AppServer
@@ -12,6 +13,8 @@ namespace AppServer
             InvertedIndex = new ConcurrentDictionary<string, List<string>>();
             var invertedIndexClass = new InvertedIndex();
             invertedIndexClass.BuildIndex();
+            ServerConnection.CreateServer();
+            Console.ReadKey();
         }
     }
 }
